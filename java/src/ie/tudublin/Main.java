@@ -22,11 +22,15 @@ public class Main
 		lucy.speak();
 	}
 
-	public void doCatStuff()
-	{
+	public void doCatStuff() {
 		// Put your code here
-		System.out.println("cats are from space");
+	
+		cat ginger = new cat("Ginger");
+		ginger.kill();
+	
+		System.out.println("Cats are from space");
 	}
+	
 	
 	public static void main(String[] args)
 	{
