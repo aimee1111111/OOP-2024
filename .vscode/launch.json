@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Life",
+            "request": "launch",
+            "mainClass": "ie.tudublin.Life",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "ie.tudublin.Main",

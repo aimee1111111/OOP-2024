@@ -8,7 +8,7 @@ public class Main
 	public void helloProcessing()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Arrays());
+        processing.core.PApplet.runSketch( a, new Life());
     }
 
 	public void doDogStuff()
@@ -25,10 +25,10 @@ public class Main
 	public void doCatStuff() {
 		// Put your code here
 	
-		cat ginger = new cat("Ginger");
-		ginger.kill();
+		//cat ginger = new cat("Ginger");
+		//ginger.kill();
 	
-		System.out.println("Cats are from space");
+		//System.out.println("Cats are from space");
 	}
 	
 	
